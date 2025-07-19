@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'UnifrakturMaguntia', 'Old English Text MT', serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.6;
+}
+
+main {
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  font-family: 'Georgia', serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+  }
+} 
